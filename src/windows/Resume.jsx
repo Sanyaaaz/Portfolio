@@ -33,4 +33,4 @@ const Resume = () => {
   )
 }
 const ResumeWindow=WindowWrapper(Resume,"resume");
-export default Resume
+export default ResumeWindow
