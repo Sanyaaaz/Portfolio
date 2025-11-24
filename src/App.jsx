@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar,Welcome,Dock} from '#components'
+import {Navbar,Welcome,Dock, Home} from '#components'
 import { Terminal,Safari ,Resume,Finder,Text,Image,Contact} from '#windows';
 import { Draggable } from 'gsap/Draggable';
 import gsap from "gsap";
@@ -17,6 +17,7 @@ const App = () => {
       <Text/>
       <Image/>
       <Contact/>
+      <Home/>
     </main>
   )
 }
