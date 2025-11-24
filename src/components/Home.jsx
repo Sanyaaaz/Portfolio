@@ -18,8 +18,12 @@ const Home = () => {
   };
 
   useGSAP(() => {
-    Draggable.create(".folder");
+    Draggable.create(".folder", {
+      allowEventDefault: true,
+      dragClickables: true
+    });
   }, []);
+  
 
   return (
     <section id="home">
