@@ -8,14 +8,14 @@ const Contact = () => {
     <>
       <div id="window-header">
         <WindowControls target="contact" />
-        <WindowControls target="contact" />
+        
         <h2>Contact Me</h2>
       </div>
 
       <div className="p-5 space-y-5">
         
         <img
-          src="/images/adrerian.jpg"  
+          src="/images/adrian.jpg"  
           alt="Sanya"
           className="w-20 rounded-full"
         />
@@ -24,10 +24,15 @@ const Contact = () => {
         <p>
           Got an idea? A bug to squash? Or just wanna talk tech? <br />
           I'm in.
-          sanyasaxena1465@gmail.com
+          
         </p>
+        <a 
+  href="mailto:sanyasaxena1465@gmail.com" 
+  className="underline text-blue-600"
+>
+  sanyasaxena1465@gmail.com
+</a>
 
-        {/* Social Links */}
         <ul>
           {socials.map(({ id, bg, link, icon, text }) => (
             <li

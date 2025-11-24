@@ -30,7 +30,7 @@ const setupTextHover = (container, type) => {
       const center = rect.left + rect.width / 2;
 
       const distance = Math.abs(mouseX - center);
-      const intensity = Math.exp(-(distance ** 2) / 10000);
+      const intensity = Math.exp(-(distance ** 2) / 20000);
 
       animateLetter(letter, min + (max - min) * intensity);
     });
