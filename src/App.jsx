@@ -8,6 +8,7 @@ const App = () => {
   return (
     <main> 
       <Navbar/>
+      <Home/>
       <Welcome/>
       <Dock />
       <Terminal />
@@ -17,7 +18,7 @@ const App = () => {
       <Text/>
       <Image/>
       <Contact/>
-      <Home/>
+      
       <Photos/>
     </main>
   )

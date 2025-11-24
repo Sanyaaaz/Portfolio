@@ -30,7 +30,7 @@ const setupTextHover = (container, type) => {
       const center = rect.left + rect.width / 2;
 
       const distance = Math.abs(mouseX - center);
-      const intensity = Math.exp(-(distance ** 2) / 20000);
+      const intensity = Math.exp(-(distance ** 2) / 10000);
 
       animateLetter(letter, min + (max - min) * intensity);
     });
@@ -43,7 +43,6 @@ const setupTextHover = (container, type) => {
   container.addEventListener("mousemove", handleMouseMove);
   container.addEventListener("mouseleave", handleMouseLeave);
 
-  // cleanup
   return () => {
     container.removeEventListener("mousemove", handleMouseMove);
     container.removeEventListener("mouseleave", handleMouseLeave);
@@ -77,7 +76,7 @@ const Welcome = () => {
   }, []);
 
   return (
-    <section id="welcome">
+    <section id="welcome" className="relative z-[5] pointer-events-auto">
       <p ref={subtitleRef}>
         {renderText(
           "Hey, I'm Sanya! Welcome to my",
