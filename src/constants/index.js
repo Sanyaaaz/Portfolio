@@ -132,28 +132,28 @@ const navLinks = [
       text: "Github",
       icon: "/icons/github.svg",
       bg: "#f4656b",
-      link: "https://github.com/JavaScript-Mastery-Pro",
+      link: "https://github.com/Sanyaaaz",
     },
     {
       id: 2,
-      text: "Platform",
+      text: "LeetCode",
       icon: "/icons/atom.svg",
       bg: "#4bcb63",
-      link: "https://jsmastery.com/",
+      link: "https://leetcode.com/u/SanyaSaxena/",
     },
     {
       id: 3,
       text: "Twitter/X",
       icon: "/icons/twitter.svg",
       bg: "#ff866b",
-      link: "https://x.com/jsmasterypro",
+      link: "https://x.com/Sanya14Saxena",
     },
     {
       id: 4,
       text: "LinkedIn",
       icon: "/icons/linkedin.svg",
       bg: "#05b6f6",
-      link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+      link: "https://www.linkedin.com/in/sanya-saxena-4b42b1239/",
     },
   ];
   
@@ -233,7 +233,7 @@ const navLinks = [
         children: [
           {
             id: 1,
-            name: "Nike Project.txt",
+            name: "Edvisr.txt",
             icon: "/images/txt.png",
             kind: "file",
             fileType: "txt",
@@ -278,7 +278,7 @@ const navLinks = [
       // ▶ Project 2
       {
         id: 6,
-        name: "AI Resume Analyzer",
+        name: "SchemeSaathi",
         icon: "/images/folder.png",
         kind: "folder",
         position: "top-52 right-80",
